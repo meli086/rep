@@ -1,0 +1,118 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #5b5b5b;
+}
+.main {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;  
+}
+.title {
+  background-color: #1e2124;
+  padding: 2%;
+}
+.side {
+  background-color: #5b5b5b;
+  float: left;
+  width: 10%;
+  min-height: 600px; 
+  padding: 1%;
+  font-size: 18px;
+  font-family: garamond, serif;
+}
+#top {
+  max-width: 800px;
+  margin: auto;
+  background-color: rgba(66,69,73, 0.8);
+  width: 80%;
+  border-radius: 10px;
+  padding : 30px;
+  text-align: center;
+}
+#content {
+  float: left;
+  padding: 4%;
+  width: 80%;
+  min-height: 600px;
+  background: url(images/misfits3.jpg);
+  background-size: cover;
+  text-align: justify;
+  font-family: garamond, serif;
+}
+#content1 {
+  float: left;
+  padding: 4%;
+  width: 80%;
+  min-height: 600px;
+  background-color: #999999;
+  text-align: justify;
+  font-family: garamond, serif;
+}
+#footer {
+  background-color: black;
+  color: white;
+  text-align: left;
+  padding: 1%;
+  clear: both;
+  font-family: garamond, serif;
+}
+#but1 {
+  margin-right: 2%;
+  width: 30%;
+  height: 30%;
+  
+}
+#but2 {
+  width: 30%;
+  height: 30%;
+  margin-left: 1%;
+}
+#list {
+  font-size: 25px;
+}
+#punk {
+  width: 31%;
+  height: 31%;
+  margin: 2%;
+}
+#crust {
+  width: 40%;
+  height: 40%;
+  margin: 2%;
+}
+#graf {
+  width: 40%;
+  height: 40%;
+  margin-left: 10%;
+}
+#ramones {
+  width: 50%;
+  height: 50%;
+}
+table {
+  width: 80%;
+  margin-top: 1%
+}
+table, th, td {
+  border:2px solid black;
+  font-size: 20px;
+}
+th {
+  background: #1e2124;
+  color: white;
+}
+tr:hover {
+  background-color: slategray;
+}
+a.button {
+    padding: 1% 6%;
+    border: 1px outset buttonborder;
+    border-radius: 3%;
+    color: white;
+    background-color: #424549;
+    text-decoration: none;
+}
+a.button:hover {
+  background-color: slategray;
+}
